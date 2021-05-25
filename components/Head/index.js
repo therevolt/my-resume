@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const Head = ({ title }) => {
+const Heads = ({ title }) => {
   return (
     <Head>
       <title>{title}</title>
@@ -10,4 +10,4 @@ const Head = ({ title }) => {
   );
 };
 
-export default Head;
+export default Heads;
