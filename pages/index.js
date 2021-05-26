@@ -42,10 +42,21 @@ export default function Home() {
           <div className="name font-default bold fs-1">RAMA SEFTIANSYAH</div>
           <div className="profession font-light fs-5">FULL STACK WEB DEVELOPER</div>
           <div className="row">
-            <div className="col-3">
+            <div className="col-xs-12 d-sm-block d-lg-none">
+              <div className="about border-neon mt-5">
+                <span className="font-default bold fs-3">About</span>
+                <p>
+                  A Full Stack Web Developer who is easy to adapt to new environments, very
+                  interested in programming, especially Javascript. Experienced in creating several
+                  websites, including realtime chat, movie ticket booking, online shopping, and
+                  digital wallet, using ReactJS, NextJS, ExpressJS, Sequelize, Redux, and Socket.io.
+                </p>
+              </div>
+            </div>
+            <div className="col-xs-12 col-lg-3">
               <div className="pro-skills border-neon mt-5">
                 <span className="font-default bold fs-4">Professional Skills</span>
-                <p className="d-flex">
+                <p className="d-flex justify-content-between">
                   <ul>
                     <li>NodeJS</li>
                     <li>ReactJS</li>
@@ -60,7 +71,6 @@ export default function Home() {
                     <li>MySQL</li>
                     <li>Socket.io</li>
                     <li>Microsoft Office</li>
-                    <li>VPS/Shared Hosting</li>
                   </ul>
                 </p>
               </div>
@@ -80,8 +90,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-9">
-              <div className="about border-neon mt-5">
+            <div className="col-xs-12 col-lg-9">
+              <div className="about-lg border-neon mt-5">
                 <span className="font-default bold fs-3">About</span>
                 <p>
                   A Full Stack Web Developer who is easy to adapt to new environments, very
@@ -130,26 +140,22 @@ export default function Home() {
               <div className="porto mt-5">
                 <span className="font-default bold fs-3">Portofolio</span>
                 <div className="row">
-                  <div className="col-6">
+                  <div className="preview-porto col-xs-12 col-lg-6">
                     <div>
                       <span className="title">SayHello</span>
                       <img
                         src="https://camo.githubusercontent.com/eef49493c138e759b2f628f26d84b9294c37c9de82a43f261b5346b2eacd6047/68747470733a2f2f692e6962622e636f2f645172346663442f5361792d48656c6c6f2d436861742d526f6f6d2d342e706e67"
                         alt=""
-                        width="420"
-                        height="250"
                         data-aos="fade-right"
                       />
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="preview-porto col-xs-12 col-lg-6">
                     <div>
                       <span className="title">Tickitz</span>
                       <img
                         src="https://camo.githubusercontent.com/5afb2da0e18fc93f04e154efee754768424d89dc2ac876077dcf50cc192c706d/68747470733a2f2f692e6962622e636f2f304378336b71582f44657461696c732d4d6f7669652d5469636b69747a2d5765622e706e67"
                         alt=""
-                        width="420"
-                        height="250"
                         data-aos="fade-left"
                       />
                     </div>

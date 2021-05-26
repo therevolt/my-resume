@@ -78,3 +78,35 @@ img {
   padding-top: 120px !important;
   padding-bottom: 120px !important;
 }
+
+.wrapper-porto img {
+  width: 260px !important;
+  height: 150px !important;
+}
+
+.preview-porto img {
+  width: 400px;
+  height: 250px;
+}
+
+@media screen and (max-width: 576px) {
+  .about-lg {
+    display: none !important;
+  }
+  .name,
+  .profession {
+    text-align: center;
+  }
+  .vertical-timeline-element-date {
+    margin: 0 !important;
+  }
+  img.aos-init.aos-animate {
+    width: 95vw;
+  }
+  .wrapper-porto img {
+    width: 90vw !important;
+  }
+  .col-xs-12 {
+    margin: 0 !important;
+  }
+}
