@@ -24,7 +24,7 @@ const Portofolio = () => {
     <div className={theme}>
       <Head title="Portofolio - Rama Seftiansyah" />
       <div className="container position-relative">
-        <div className="toogle-mode position-absolute end-0 mt-3">
+        <div className="toogle-mode position-absolute end-0 mt-3 mx-2">
           <DarkModeToggle
             onChange={handleChangeTheme}
             checked={theme === "dark" ? true : false}
@@ -34,7 +34,7 @@ const Portofolio = () => {
         <div className="content">
           <div className="header fs-1 font-default bold py-5">Lists Project</div>
           <div className="wrapper-porto row">
-            <div className="text col-xs-12 col-lg-5 my-5 py-5" data-aos="zoom-in-down">
+            <div className="text col-xs-12 col-lg-5 my-5 py-3" data-aos="zoom-in-down">
               <div className="title font-default fs-4">Ticktiz</div>
               <div className="about font-light">
                 Tickitz is a movie ticket booking website with many interesting features that make
@@ -110,7 +110,7 @@ const Portofolio = () => {
                 />
               </div>
             </div>
-            <div className="text-end col-xs-12 col-lg-5 my-5 my-5 py-3" data-aos="zoom-in-right">
+            <div className="text-end col-xs-12 col-lg-5 my-4" data-aos="zoom-in-right">
               <div className="title font-default fs-4">ZWallet</div>
               <div className="about font-light">
                 ZWallet is a digital wallet website for various transactions with various features
@@ -127,7 +127,7 @@ const Portofolio = () => {
             </div>
           </div>
           <div className="wrapper-porto row">
-            <div className="text col-xs-12 col-lg-5 my-5 py-4" data-aos="zoom-in-down">
+            <div className="text col-xs-12 col-lg-5 my-5 py-1" data-aos="zoom-in-down">
               <div className="title font-default fs-4">SayHello</div>
               <div className="about font-light">
                 SayHello is a chat website with various realtime features, such as send / receive
@@ -212,7 +212,7 @@ const Portofolio = () => {
                 />
               </div>
             </div>
-            <div className="text-end col-xs-12 col-lg-5 my-5 py-1" data-aos="zoom-in-right">
+            <div className="text-end col-xs-12 col-lg-5 my-4" data-aos="zoom-in-right">
               <div className="title font-default fs-4">Coffe Shop</div>
               <div className="about font-light">
                 Coffee Shop is a food and beverage ordering website created by the InCafe team and
@@ -230,7 +230,7 @@ const Portofolio = () => {
             </div>
           </div>
           <div className="wrapper-porto row">
-            <div className="text col-xs-12 col-lg-5 my-5 py-2" data-aos="zoom-in-down">
+            <div className="text col-xs-12 col-lg-5 my-4" data-aos="zoom-in-down">
               <div className="title font-default fs-4">ARVA SHOP</div>
               <div className="about font-light">
                 ARVA SHOP is an online shopping website that provides various features for buyers

@@ -89,6 +89,101 @@ export default function Home() {
                   </ul>
                 </p>
               </div>
+              <div className="per-skills border-neon mt-5">
+                <span className="font-default bold fs-4">Contacts</span>
+                <p className="d-flex">
+                  <table>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png"
+                          alt=""
+                          height="25"
+                          width="25"
+                          className="mx-2"
+                        />
+                      </td>
+                      <td>
+                        <a
+                          href="https://wa.me/6289522407667"
+                          style={{
+                            textDecoration: "none",
+                            color: theme === "light" ? "black" : "white",
+                          }}
+                        >
+                          +62 895 2240 7667
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png"
+                          alt=""
+                          height="25"
+                          width="25"
+                          className="mx-2"
+                        />
+                      </td>
+                      <td>
+                        <a
+                          href="mailto:ramaseftiansyah12@gmail.com"
+                          style={{
+                            textDecoration: "none",
+                            color: theme === "light" ? "black" : "white",
+                          }}
+                        >
+                          ramaseftiansyah12@gmail.com
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+                          alt=""
+                          height="25"
+                          width="25"
+                          className="mx-2"
+                        />
+                      </td>
+                      <td>
+                        <a
+                          href="https://github.com/therevolt"
+                          style={{
+                            textDecoration: "none",
+                            color: theme === "light" ? "black" : "white",
+                          }}
+                        >
+                          therevolt
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png"
+                          alt=""
+                          height="25"
+                          width="25"
+                          className="mx-2"
+                        />
+                      </td>
+                      <td>
+                        <a
+                          href="https://www.linkedin.com/in/ramaseftiansyah/"
+                          style={{
+                            textDecoration: "none",
+                            color: theme === "light" ? "black" : "white",
+                          }}
+                        >
+                          ramaseftiansyah
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </p>
+              </div>
             </div>
             <div className="col-xs-12 col-lg-9">
               <div className="about-lg border-neon mt-5">
@@ -99,6 +194,9 @@ export default function Home() {
                   websites, including realtime chat, movie ticket booking, online shopping, and
                   digital wallet, using ReactJS, NextJS, ExpressJS, Sequelize, Redux, and Socket.io.
                 </p>
+                <p>
+                  <a href="#">Download Resume</a>
+                </p>
               </div>
               <div className="work-exp mt-5">
                 <span className="font-default bold fs-3">Work Experience</span>
@@ -106,9 +204,9 @@ export default function Home() {
                   <VerticalTimeline animate={false}>
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work post-left"
-                      contentStyle={{ background: "#FF8507", color: "#fff" }}
-                      contentArrowStyle={{ borderRight: "7px solid  #CB6B09" }}
-                      iconStyle={{ background: "#FF8507", color: "#fff" }}
+                      contentStyle={{ background: "#6794F0", color: "#fff" }}
+                      contentArrowStyle={{ borderRight: "7px solid #6794F0" }}
+                      iconStyle={{ background: "#6794F0", color: "#fff" }}
                       date="August 2018 - Sept 2019"
                     >
                       <div data-aos="zoom-in-up">
@@ -121,9 +219,9 @@ export default function Home() {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work post-right"
-                      contentStyle={{ background: "#21A0D4", color: "#fff" }}
-                      contentArrowStyle={{ borderRight: "7px solid #1F9BCD" }}
-                      iconStyle={{ background: "#1F9BCD", color: "#fff" }}
+                      contentStyle={{ background: "#5174BD", color: "#fff" }}
+                      contentArrowStyle={{ borderRight: "7px solid #5174BD" }}
+                      iconStyle={{ background: "#5174BD", color: "#fff" }}
                       date="Nov 2015 - Sept 2015"
                     >
                       <div data-aos="zoom-in">
@@ -140,9 +238,9 @@ export default function Home() {
               <div className="porto mt-5">
                 <span className="font-default bold fs-3">Portofolio</span>
                 <div className="row">
-                  <div className="preview-porto col-xs-12 col-lg-6">
+                  <div className="preview-porto col-xs-12 col-lg-6 d-flex flex-column">
                     <div>
-                      <span className="title">SayHello</span>
+                      <span className="title fs-5">SayHello</span>
                       <img
                         src="https://camo.githubusercontent.com/eef49493c138e759b2f628f26d84b9294c37c9de82a43f261b5346b2eacd6047/68747470733a2f2f692e6962622e636f2f645172346663442f5361792d48656c6c6f2d436861742d526f6f6d2d342e706e67"
                         alt=""
@@ -150,9 +248,9 @@ export default function Home() {
                       />
                     </div>
                   </div>
-                  <div className="preview-porto col-xs-12 col-lg-6">
+                  <div className="preview-porto col-xs-12 col-lg-6 d-flex flex-column">
                     <div>
-                      <span className="title">Tickitz</span>
+                      <span className="title fs-5">Tickitz</span>
                       <img
                         src="https://camo.githubusercontent.com/5afb2da0e18fc93f04e154efee754768424d89dc2ac876077dcf50cc192c706d/68747470733a2f2f692e6962622e636f2f304378336b71582f44657461696c732d4d6f7669652d5469636b69747a2d5765622e706e67"
                         alt=""

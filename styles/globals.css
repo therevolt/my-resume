@@ -21,19 +21,13 @@ a {
 }
 
 .dark {
-  background: #000000;
-  color: whitesmoke;
+  background: #000000 !important;
+  color: whitesmoke !important;
 }
 
 .light {
-  background: #c3c3c3;
-  color: #000000;
-}
-
-.dark .border-neon {
-  border: 1px solid #15c2f8;
-  border-radius: 5px;
-  padding: 15px;
+  background: #c8d9ed !important;
+  color: #000000 !important;
 }
 
 .wrapper-img {
@@ -55,6 +49,10 @@ a {
 
 .bold {
   font-weight: bold;
+}
+
+.light .vertical-timeline-element-date {
+  opacity: 1 !important;
 }
 
 .post-left .vertical-timeline-element-date {
@@ -87,6 +85,28 @@ img {
 .preview-porto img {
   width: 400px;
   height: 250px;
+}
+
+.light .vertical-timeline-element-date {
+  color: #000000;
+}
+
+.dark .vertical-timeline-element-date {
+  color: white;
+}
+
+.light .font-light {
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: #6893ef !important;
+  border: 1px solid #5d87e2 !important;
+}
+
+.wrapper-porto .about {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 576px) {
