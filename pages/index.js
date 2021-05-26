@@ -111,7 +111,7 @@ export default function Home() {
                       iconStyle={{ background: "#FF8507", color: "#fff" }}
                       date="August 2018 - Sept 2019"
                     >
-                      <div data-aos="zoom-in-left">
+                      <div data-aos="zoom-in-up">
                         <h3 className="vertical-timeline-element-title">
                           PT. Visionet Data Internasional
                         </h3>
@@ -126,7 +126,7 @@ export default function Home() {
                       iconStyle={{ background: "#1F9BCD", color: "#fff" }}
                       date="Nov 2015 - Sept 2015"
                     >
-                      <div data-aos="zoom-in-right">
+                      <div data-aos="zoom-in">
                         <h3 className="vertical-timeline-element-title">
                           PT. PLN (Persero) Area Cikokol
                         </h3>
@@ -146,7 +146,7 @@ export default function Home() {
                       <img
                         src="https://camo.githubusercontent.com/eef49493c138e759b2f628f26d84b9294c37c9de82a43f261b5346b2eacd6047/68747470733a2f2f692e6962622e636f2f645172346663442f5361792d48656c6c6f2d436861742d526f6f6d2d342e706e67"
                         alt=""
-                        data-aos="fade-right"
+                        data-aos="flip-left"
                       />
                     </div>
                   </div>
@@ -156,7 +156,7 @@ export default function Home() {
                       <img
                         src="https://camo.githubusercontent.com/5afb2da0e18fc93f04e154efee754768424d89dc2ac876077dcf50cc192c706d/68747470733a2f2f692e6962622e636f2f304378336b71582f44657461696c732d4d6f7669652d5469636b69747a2d5765622e706e67"
                         alt=""
-                        data-aos="fade-left"
+                        data-aos="flip-right"
                       />
                     </div>
                   </div>
