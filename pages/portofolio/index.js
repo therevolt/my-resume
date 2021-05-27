@@ -2,7 +2,7 @@ import AOS from "aos";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import DarkModeToggle from "react-dark-mode-toggle";
-import Head from "../components/Head";
+import Head from "../../components/Head";
 
 const Portofolio = () => {
   const [theme, setTheme] = useState("dark");
